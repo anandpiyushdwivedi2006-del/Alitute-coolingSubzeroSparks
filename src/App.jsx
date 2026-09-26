@@ -453,72 +453,72 @@ function App() {
           </div>
 
           <div className="prototype-gallery">
-            <figure className="gallery-card gallery-card-large">
-              <div className="gallery-image-box gallery-large-box">
-                <img
-                  src="/images/prototype-main.jpg"
-                  alt="Complete altitude-adaptive cooling prototype"
-                />
-              </div>
+  <figure className="gallery-card gallery-card-large">
+    <div className="gallery-image-box gallery-large-box">
+      <img
+        src={`${import.meta.env.BASE_URL}images/prototype-main.jpg`}
+        alt="Complete altitude-adaptive cooling prototype"
+      />
+    </div>
 
-              <figcaption>
-                Complete working prototype showing the enclosure, airflow path,
-                controller, and thermal test arrangement.
-              </figcaption>
-            </figure>
+    <figcaption>
+      Complete working prototype showing the enclosure, airflow path,
+      controller, and thermal test arrangement.
+    </figcaption>
+  </figure>
 
-            <figure className="gallery-card">
-              <div className="gallery-image-box">
-                <img
-                  src="/images/prototype-side.jpg"
-                  alt="Side view of the cooling prototype"
-                />
-              </div>
+  <figure className="gallery-card">
+    <div className="gallery-image-box">
+      <img
+        src={`${import.meta.env.BASE_URL}images/prototype-side.jpg`}
+        alt="Side view of the cooling prototype"
+      />
+    </div>
 
-              <figcaption>
-                Side view of the fan and heat-sink arrangement.
-              </figcaption>
-            </figure>
+    <figcaption>
+      Side view of the fan and heat-sink arrangement.
+    </figcaption>
+  </figure>
 
-            <figure className="gallery-card">
-              <div className="gallery-image-box">
-                <img
-                  src="/images/control-panel.jpg"
-                  alt="ESP32 controller and power section"
-                />
-              </div>
+  <figure className="gallery-card">
+    <div className="gallery-image-box">
+      <img
+        src={`${import.meta.env.BASE_URL}images/control-panel.jpg`}
+        alt="ESP32 controller and power section"
+      />
+    </div>
 
-              <figcaption>
-                ESP32, buck converter, protection, and wiring section.
-              </figcaption>
-            </figure>
+    <figcaption>
+      ESP32, buck converter, protection, and wiring section.
+    </figcaption>
+  </figure>
 
-            <figure className="gallery-card">
-              <div className="gallery-image-box">
-                <img
-                  src="/images/fan-assembly.jpg"
-                  alt="Cooling fan and heat-sink assembly"
-                />
-              </div>
+  <figure className="gallery-card">
+    <div className="gallery-image-box">
+      <img
+        src={`${import.meta.env.BASE_URL}images/fan-assembly.jpg`}
+        alt="Cooling fan and heat-sink assembly"
+      />
+    </div>
 
-              <figcaption>
-                Fan and heat-sink assembly used to develop the airflow path.
-              </figcaption>
-            </figure>
+    <figcaption>
+      Fan and heat-sink assembly used to develop the airflow path.
+    </figcaption>
+  </figure>
 
-            <figure className="gallery-card">
-              <div className="gallery-image-box">
-                <img
-                  src="/images/thermal-test.jpg"
-                  alt="sheep wool insulation test setup"
-                />
-              </div>
+  <figure className="gallery-card">
+    <div className="gallery-image-box">
+      <img
+        src={`${import.meta.env.BASE_URL}images/thermal-test.jpg`}
+        alt="Sheep wool insulation test setup"
+      />
+    </div>
 
-              <figcaption>
-                Sheep wool insulation test setup.
-              </figcaption>
-            </figure>
-          </div>
+    <figcaption>
+      Sheep wool insulation test setup.
+    </figcaption>
+  </figure>
+</div>
         </section>
 
         <section
@@ -569,7 +569,7 @@ function App() {
                 </span>
                 <h3>Full circuit and wiring diagram</h3>
                 <p>
-                  https://drive.google.com/file/d/1IsH-8CHrKMrw9jdMr_PKUBxljPOcRRYs/view?usp=drivesdk
+                 https://drive.google.com/file/d/1NlLRSjsMfJHDeytlAiCF0CQlga11KF4p/view?usp=drivesdk
                 </p>
               </div>
 
@@ -603,7 +603,7 @@ function App() {
                 <span className="prototype-link-type">REPORT</span>
                 <h3>Project report or presentation</h3>
                 <p>
-                 https://drive.google.com/file/d/1zoGxx3n7wCQfDGjhPGm02cDGPZ34Oaa4/view?usp=drivesdk
+                 https://drive.google.com/file/d/1ADgHiU5qNEzGDScyrf4bYTk6jIo8QYpK/view?usp=drivesdk
                 </p>
               </div>
 
